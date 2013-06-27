@@ -1,0 +1,12 @@
+<VirtualHost *:80>
+    DocumentRoot /home/dustin/maidfinderdfw.com/public
+ 
+    SetEnv APPLICATION_ENV "development"
+ 
+    <Directory /home/dustin/maidfinderdfw.com/public>
+        DirectoryIndex index.php
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    </Directory>
+</VirtualHost>
