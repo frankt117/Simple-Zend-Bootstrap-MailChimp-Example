@@ -1,0 +1,202 @@
+body {
+    padding-top: 50px;
+    background-color: #253040;
+    background-size:1024px 1456px;
+}
+h1
+{
+    color:#FFF;
+    font-size: 12px;
+    font-family: Helvetica;
+    font-style: oblique;
+    text-align:left;
+    line-height: 0px;
+
+}
+ul
+{
+    color:#FFF;
+    font-size: 23px;
+    font-family: Helvetica;
+    font-style: oblique;
+    text-align:left;
+    line-height: 40px;
+
+}
+#logo-graphic
+{
+    background-image: url('http://quickcmsthemes.com/assets/img/cannon.png');
+    background-size:688px 512px;
+    height:512px;
+    width:688px;
+}
+#process-graphic
+{
+    background-image: url('http://quickcmsthemes.com/assets/img/qcmst-process-graphic.png');
+    background-size:896px 370px;
+    height:370px;
+    width:896px;
+    margin-top:-5px;
+}
+#process-graphic-font-left
+{
+    color:#FFF;
+    font-size: 24px;
+    font-family: Helvetica;
+    font-style: oblique;
+    line-height: 80px;
+    padding-top:300px;
+    padding-right: 10px;
+    text-align:left;
+
+}
+#process-graphic-font-center
+{
+    color:#FFF;
+    font-size: 24px;
+    font-family: Helvetica;
+    font-style: oblique;
+    line-height: 80px;
+    padding-top:300px;
+    padding-right: 10px;
+    text-align:center;
+
+}
+#process-graphic-font-right
+{
+    color:#FFF;
+    font-size: 24px;
+    font-family: Helvetica;
+    font-style: oblique;
+    line-height: 80px;
+    padding-top:300px;
+    padding-right: 10px;
+    text-align:right;
+
+}
+#button
+{
+    background-image: url('http://quickcmsthemes.com/assets/img/qcmst-button.png');
+    background-size:231px 56px;
+    height:56px;
+    width:231px;
+    margin-top:455px;
+    margin-left:-23px;
+}
+#button:hover {
+
+}
+#button-font
+{
+    color:#FFF;
+    font-size: 26px;
+    font-family: Helvetica;
+    font-style: oblique;
+    text-align:center;
+    height:56px;
+    width:231px;
+    margin-top:10px;
+}
+#panel-graphic-left
+{
+    background-image: url('http://quickcmsthemes.com/assets/img/qcmst-panel.png');
+    background-size:433px 223px;
+    height:223px;
+    width:433px;
+    margin-top:40px;
+}
+#panel-graphic-left-2
+{
+    background-image: url('http://quickcmsthemes.com/assets/img/qcmst-panel.png');
+    background-size:433px 223px;
+    height:190px;
+    width:433px;
+    margin-top:-70px;
+}
+#panel-left-2-font-center
+{
+    color:#FFF;
+    font-size: 24px;
+    font-family: Helvetica;
+    font-style: normal;
+    line-height: 80px;
+    padding-top:5px;
+    padding-right:0px;
+    text-align:center;
+    height:223px;
+    width:423px;
+
+}
+#panel-graphic-right
+{
+    background-image: url('http://quickcmsthemes.com/assets/img/qcmst-panel.png');
+    background-size:433px 223px;
+    height:223px;
+    width:433px;
+    margin-top:40px;
+    margin-left:30px;
+}
+#panel-graphic-right-2
+{
+    background-image: url('http://quickcmsthemes.com/assets/img/qcmst-panel.png');
+    background-size:433px 223px;
+    height:190px;
+    width:433px;
+    margin-top:-70px;
+    margin-left:30px;
+}
+#panel-right-2-font-center
+{
+    color:#FFF;
+    font-size: 24px;
+    font-family: Helvetica;
+    font-style: normal;
+    line-height: 80px;
+    padding-top:5px;
+    padding-right:0px;
+    text-align:center;
+    height:223px;
+    width:423px;
+
+}
+#panel-font-center
+{
+    color:#FFF;
+    font-size: 24px;
+    font-family: Helvetica;
+    font-style: oblique;
+    line-height: 80px;
+    padding-top:0px;
+    padding-right:0px;
+    text-align:center;
+    height:223px;
+    width:433px;
+
+}
+
+#footer-font
+{
+    color:#FFF;
+    font-size: 12px;
+    font-family: Helvetica;
+    font-style: oblique;
+    line-height: 80px;
+    padding-top:300px;
+    padding-right: 10px;
+    text-align:left;
+
+}
+
+
+/* Non-responsive overrides
+ *
+ * Utilitze the following CSS to disable the responsive-ness of the container,
+ * grid system, and navbar.
+ */
+
+/* Reset the container */
+.container {
+    max-width: none !important;
+    width: 970px;
+}
+
