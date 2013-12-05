@@ -195,10 +195,11 @@ ul
 
 #thank-you {
     font-size: 42px;
+    padding:20px;
 }
 
 #thank-you-pg {
-    font-size: 21px;
+    font-size: 16px;
     color: #fff;
 }
 
