@@ -16,7 +16,9 @@ class GetStartedController extends Zend_Controller_Action
     public function thanksAction()
     {
         if($this->_request->getParams()){
-            die(print_r($this->_request->getParams()));
+            if(false === mail('dustinmoorman@gmail.com',"From QCMST", "This is a test from QCMST", "From: sales@quickcmsthemes.com \r\n")){
+             die('MAIL SEND FAIL');
+            }
         }
     }
 
