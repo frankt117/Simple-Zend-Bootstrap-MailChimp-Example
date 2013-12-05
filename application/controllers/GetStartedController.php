@@ -52,7 +52,7 @@ class GetStartedController extends Zend_Controller_Action
 
     protected function setMailMessage($post_data){
         $this->_mail_message = 'At ' . date(DATE_RSS) . ' ' . $post_data['email'] . " made a new QCMST request!\r\n";
-        $this->_mail_message .= $post_data['description'];
+        $this->_mail_message .= "\r\n". $post_data['description'];
 
     }
 
