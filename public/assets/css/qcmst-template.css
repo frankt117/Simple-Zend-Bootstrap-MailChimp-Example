@@ -193,6 +193,15 @@ ul
     font-family: Helvetica;
 }
 
+#thank-you {
+    font-size: 42px;
+}
+
+#thank-you-pg {
+    font-size: 21px;
+    color: #fff;
+}
+
 .help-block {
     color: #fff;
 }
