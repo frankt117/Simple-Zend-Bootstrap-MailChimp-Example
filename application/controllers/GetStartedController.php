@@ -15,7 +15,9 @@ class GetStartedController extends Zend_Controller_Action
 
     public function thanksAction()
     {
-
+        if($this->_request->getParams()){
+            die(print_r($this->_request->getParams()));
+        }
     }
 
 
