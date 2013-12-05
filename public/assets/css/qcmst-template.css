@@ -193,6 +193,10 @@ ul
     font-family: Helvetica;
 }
 
+.help-block {
+    color: #fff;
+    font-style: oblique;
+}
 
 /* Non-responsive overrides
  *
