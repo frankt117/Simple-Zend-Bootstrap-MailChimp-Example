@@ -13,6 +13,11 @@ class GetStartedController extends Zend_Controller_Action
 
     }
 
+    public function thanksAction()
+    {
+
+    }
+
 
 }
 
